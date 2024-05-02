@@ -1,0 +1,7 @@
+services:
+  publicapi:
+    build:
+      context: ./PDFService.API
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
